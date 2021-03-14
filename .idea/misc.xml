@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1615408317396.xml" value="0.5027777777777778" />
+        <entry key="../../../../layout/compose-model-1615449733217.xml" value="0.49907407407407406" />
+        <entry key="../../../../layout/compose-model-1615453106729.xml" value="0.2493208572290975" />
+        <entry key="../../../../layout/compose-model-1615494590222.xml" value="0.2493208572290975" />
+        <entry key="../../../../layout/compose-model-1615626632982.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1615627604211.xml" value="0.34852320675105486" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.41875" />
+        <entry key="app/src/main/res/drawable/background_gradient.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/background_gradient_vector.xml" value="0.4197916666666667" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
