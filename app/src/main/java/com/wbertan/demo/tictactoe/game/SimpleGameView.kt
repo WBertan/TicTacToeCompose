@@ -16,7 +16,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.util.fastForEachIndexed
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieAnimationSpec
 import com.airbnb.lottie.compose.rememberLottieAnimationState
@@ -65,13 +64,13 @@ object SimpleGameView {
                     onResetGame = simpleGameManager::resetGame
                 )
             }
-            game.fastForEachIndexed { x, row ->
+            game.forEachIndexed { x, row ->
                 Row(
                     Modifier
                         .weight(1f)
                         .fillMaxWidth()
                 ) {
-                    row.fastForEachIndexed { y, item ->
+                    row.forEachIndexed { y, item ->
                         Item(
                             Modifier
                                 .weight(1f)
